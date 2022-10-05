@@ -1,0 +1,4 @@
+pandas
+io
+zipfile
+urllib.request
