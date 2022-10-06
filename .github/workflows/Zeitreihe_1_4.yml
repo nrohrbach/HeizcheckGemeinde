@@ -1,16 +1,8 @@
 name: Zeitreihe_1_4
 
 on: 
-#  schedule:
-#    - cron: '0 2 * * *' # runs every day at 2am UTM. 
-
-  workflow_dispatch:
-    inputs:
-      version:
-        description: Bump Version
-        default: v1.0.0
-        required: true
-
+  schedule:
+    - cron: '0 2 * * *' # runs every day at 2am UTM. 
 
 jobs:
   build:
