@@ -71,4 +71,4 @@ Gemeindeliste
 # ## Daten als CSV-Datei exportieren
 
 # Als CSV-File exportieren
-Gemeindeliste.to_csv('Daten/Gemeindeliste_1-4.csv',sep=',', encoding="utf-8-sig")
+Gemeindeliste.to_csv('Daten/Gemeindeliste_1-4.csv', index = False, header=True, sep=',', encoding="utf-8-sig")
