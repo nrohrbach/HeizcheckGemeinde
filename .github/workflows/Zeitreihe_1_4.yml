@@ -1,5 +1,5 @@
 name: Zeitreihe_1_4
-
+on: [workflow_dispatch]
 on: 
   schedule:
     - cron: '0 2 * * *' # runs every day at 2am UTM. 
