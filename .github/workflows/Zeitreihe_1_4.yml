@@ -22,10 +22,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Remove File
-        uses: JesseTG/rm@v1.0.3
-        with:
-          path: Daten/Gemeindeliste_1-4.csv 
+      #- name: Remove File
+       # uses: JesseTG/rm@v1.0.3
+        #with:
+         # path: Daten/Gemeindeliste_1-4.csv 
 
       - name: execute py script # run the run.py to get the latest data
         run: python 1.4_Zeitreihe_fossiler_Heizungen.py
