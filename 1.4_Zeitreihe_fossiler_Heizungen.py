@@ -71,7 +71,7 @@ Gemeindeliste.columns  = ['Gemeinde','Bauperiode','Energiequelle','Anzahl']
 import os
 if os.path.exists('Daten/Gemeindeliste_1-4.csv'):
   os.remove('Daten/Gemeindeliste_1-4.csv')
-# ## Daten als CSV-Datei exportieren
 
+  # ## Daten als CSV-Datei exportieren
 # Als CSV-File exportieren
 Gemeindeliste.to_csv('Daten/Gemeindeliste_1-4.csv', index = False, mode='a', header=True, sep=',', encoding="utf-8-sig")
