@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
           
       - name: execute py script # run the run.py to get the latest data
-        run: python Skripte/1.4_Zeitreihe_fossiler_Heizungen.py
+        run: python ./Skripte/1.4_Zeitreihe_fossiler_Heizungen.py
      
       - name: commit files
         run: |
