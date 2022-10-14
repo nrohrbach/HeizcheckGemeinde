@@ -66,9 +66,12 @@ Gemeindeliste = buildings[['Gemeinde','Bauperiode','Energiequelle']].value_count
 
 # Die Spaltennamen des DataFrames neu benennen
 Gemeindeliste.columns  = ['Gemeinde','Bauperiode','Energiequelle','Anzahl']
-Gemeindeliste
 
-# ## Daten als CSV-Datei exportieren
+# Datei vorher löschen
+import os
+if os.path.exists('Daten/Gemeindeliste_1-4.csv'):
+  os.remove('Daten/Gemeindeliste_1-4.csv')
 
+  # ## Daten als CSV-Datei exportieren
 # Als CSV-File exportieren
-Gemeindeliste.to_csv('Daten/Gemeindeliste_1-4.csv', index = False, header=True, sep=',', encoding="utf-8-sig")
+Gemeindeliste.to_csv('Daten/Gemeindeliste_1-4.csv', index = False, mode='a', header=True, sep=',', encoding="utf-8-sig")
