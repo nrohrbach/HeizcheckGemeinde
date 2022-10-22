@@ -3,5 +3,6 @@ Repo für Zertifikatsarbeit CAS SDA.
 
 [![1.1_Anteil_fossiler_Heizungen](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_fossiler_Heizungen.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_fossiler_Heizungen.yml)
 
+[![1.3_Energiequellen_GHE](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.3_Energiequellen_GHE.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.3_Energiequellen_GHE.yml)
 
 [![Zeitreihe_1_4](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/Zeitreihe_1_4.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/Zeitreihe_1_4.yml)
