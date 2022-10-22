@@ -20,7 +20,7 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r Skripte/1.4_requirements.txt
 
       - name: execute py script # run the run.py to get the latest data
         run: python Skripte/1.4_Daten_loeschen.py
