@@ -1,4 +1,4 @@
-name: 1.1_Anteil_fossiler_Heizungen
+name: 1.1_Anteil_Heizungen_GHE
 
 #on: [workflow_dispatch]
 on: 
@@ -38,7 +38,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
       - name: execute py script # run the run.py to get the latest data
-        run: python Skripte/1.1_Anteil_fossiler_Heizungen.py
+        run: python Skripte/1.1_Anteil_Heizungen_GHE.py
      
       - name: commit files
         run: |
