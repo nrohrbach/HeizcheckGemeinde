@@ -106,8 +106,5 @@ dfEnergyProGemeinde.columns  = ['Gemeinde','Energiequelle','Anzahl']
 dfEnergyProGemeinde
 
 #Als CSV-File exportieren
-#dfEnergyProGemeinde.to_csv('Export_Data/EnergyProGemeinde_CH.csv',sep=',', encoding="utf-8-sig")
-
-#Als CSV-File exportieren
 dfEnergyProGemeinde.to_csv('Daten/Gemeindeliste_1-1.csv',sep=',', encoding="utf-8-sig")
 
