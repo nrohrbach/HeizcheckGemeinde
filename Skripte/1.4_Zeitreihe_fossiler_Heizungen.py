@@ -87,7 +87,7 @@ buildings['Energiequelle'] = buildings.Energiequelle.replace({
                                         7581: 'Weitere',
                                         7582: 'Weitere',
                                         7598: 'Unbestimmt',
-                                        7599: 'Keine'
+                                        7599: 'Weitere'
                                             })
 
 
