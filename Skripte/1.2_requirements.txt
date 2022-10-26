@@ -1,7 +1,7 @@
 pandas
 geopandas
-geoplot
-shapely
+#geoplot
+#shapely
 #json
 #fiona.io
 
