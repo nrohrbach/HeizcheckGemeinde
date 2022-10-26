@@ -71,7 +71,7 @@ dfGWRSource['Energiequelle'] = dfGWRSource.Energiequelle.replace({
                                             7599: 'Weitere'
                                             })
 
-#Dort wor keine Energiequelle (NULL) angegeben ist, wird der Text Unbestimmt gesetzt
+#Dort wor keine Energiequelle (NULL) angegeben ist, wird der Text "Unbestimmt" gesetzt
 dfGWRSource["Energiequelle"].fillna("Unbestimmt", inplace = True)
 
 
