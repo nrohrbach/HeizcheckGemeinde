@@ -1,6 +1,7 @@
 pandas
 geopandas
 requests
+rtree
 #geoplot==0.5.1
 #shapely==1.8.4
 #fiona==1.8.21
