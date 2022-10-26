@@ -11,7 +11,7 @@
 # Zu verwendende Bibliotheken importieren
 import pandas as pd
 import geopandas as gpd
-import geoplot as gplt
+#import geoplot as gplt
 import shapely.geometry
 from io import BytesIO
 from zipfile import ZipFile
@@ -81,7 +81,7 @@ gdf= gpd.GeoDataFrame(
         )
     )
 ,crs="EPSG:2056")
-gdf.plot(markersize=.1, figsize=(8, 8))
+#gdf.plot(markersize=.1, figsize=(8, 8))
 
 
 # In[6]:
@@ -205,7 +205,7 @@ Wohngebaeude_gdf = Wohngebaeude_gdf.to_crs(epsg='4326')
 # In[16]:
 
 
-Wohngebaeude_gdf.plot(markersize=.1, figsize=(8, 8))
+#Wohngebaeude_gdf.plot(markersize=.1, figsize=(8, 8))
 
 
 # In[17]:
@@ -355,7 +355,7 @@ with fiona.io.ZipMemoryFile(data_bytes) as zip_memory_file:
 # In WGS84 transformieren
 switzerland_gemeinde = switzerland_gemeinde.to_crs(epsg='4326')
     
-switzerland_gemeinde.plot()
+#switzerland_gemeinde.plot()
 
 
 # In[38]:
