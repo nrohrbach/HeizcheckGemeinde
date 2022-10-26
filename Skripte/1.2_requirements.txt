@@ -1,0 +1,12 @@
+pandas
+geopandas
+geoplot
+shapely
+io
+json
+fiona.io
+
+# pandas==1.4.4
+# io
+# zipfile
+# urllib.request
