@@ -6,7 +6,7 @@ Ein Drittel des Energieverbrauchs in der Schweiz wird durch Haushalte verursacht
 ## Methode
 * [Zeitreihe](https://nrohrbach.github.io/HeizcheckGemeinde/1.4_Zeitreihe_fossiler_Heizungen)
 
-[![1.1_Anteil_fossiler_Heizungen](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_fossiler_Heizungen.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_fossiler_Heizungen.yml)
+[![1.1_Anteil_Heizungen_GHE](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_Heizungen_GHE.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.1_Anteil_Heizungen_GHE.yml)
 
 [![1.2_Anzahl_Einwohnende](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.2_Anzahl_Einwohnende.yml/badge.svg)](https://github.com/nrohrbach/HeizcheckGemeinde/actions/workflows/1.2_Anzahl_Einwohnende.yml)
 
