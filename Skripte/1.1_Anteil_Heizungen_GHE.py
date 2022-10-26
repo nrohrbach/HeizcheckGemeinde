@@ -71,7 +71,7 @@ dfGWRSource['Energiequelle'] = dfGWRSource.Energiequelle.replace({
                                             7599: 'Weitere'
                                             })
 
-#Dort wor keine Energiequelle (NULL) angegeben ist, wird der Text NULL gesetzt
+#Dort wor keine Energiequelle (NULL) angegeben ist, wird der Text Unbestimmt gesetzt
 dfGWRSource["Energiequelle"].fillna("Unbestimmt", inplace = True)
 
 
@@ -103,7 +103,6 @@ dfEnergyProGemeinde = dfEnergyProGemeinde[['Gemeinde','Energiequelle']].value_co
 # ### Spalten benennen und Daten in ein CSV-File exportieren
 #Spaltenaen neu definieren
 dfEnergyProGemeinde.columns  = ['Gemeinde','Energiequelle','Anzahl']
-dfEnergyProGemeinde
 
 #Als CSV-File exportieren
 dfEnergyProGemeinde.to_csv('Daten/Gemeindeliste_1-1.csv',sep=',', encoding="utf-8-sig")
