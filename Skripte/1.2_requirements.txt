@@ -3,6 +3,7 @@ geopandas
 geoplot==0.5.1
 shapely==1.8.4
 fiona==1.8.21
+Cartopy==0.20.3
 
 # pandas==1.4.4
 # io
