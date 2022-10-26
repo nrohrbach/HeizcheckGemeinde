@@ -90,6 +90,7 @@ dfEnergyHeatmap
 # ### Daten in ein GeoPackage-File exportieren
 #Als GeoPackage-File exportieren
 #gdf.to_file('Export_Data/GeoPackage/EnergiequelleFossile.gpkg', driver='GPKG', limit=0)
+gdf = gdf.set_crs(2056, allow_override=True)
 gdf.to_file('Daten/Gemeindeliste_1-3.gpkg', driver='GPKG', limit=0)
 
 
