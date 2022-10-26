@@ -3,7 +3,7 @@ geopandas
 geoplot
 shapely
 #json
-fiona.io
+#fiona.io
 
 # pandas==1.4.4
 # io
