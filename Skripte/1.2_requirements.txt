@@ -2,7 +2,6 @@ pandas
 geopandas
 geoplot
 shapely
-io
 json
 fiona.io
 
