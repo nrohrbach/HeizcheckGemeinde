@@ -1,9 +1,8 @@
 pandas
 geopandas
-#geoplot
-#shapely
-#json
-#fiona.io
+geoplot==0.5.1
+shapely==1.8.4
+fiona==1.8.21
 
 # pandas==1.4.4
 # io
