@@ -22,8 +22,8 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r Skripte/1.3_requirements.txt
-    #  - name: execute py script # run the run.py to get the latest data
-    #    run: python Skripte/1.1_Daten_loeschen.py
+      - name: execute py script # run the run.py to get the latest data
+        run: python Skripte/1.3_Daten_loeschen.py
      
     #  - name: commit files
     #    run: |
