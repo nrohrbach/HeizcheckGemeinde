@@ -10,12 +10,13 @@ url = urlopen("https://public.madd.bfs.admin.ch/ch.zip")
 #lesen GWR Daten
 zipfile = ZipFile(BytesIO(url.read()))
 dfGWRSource = pd.read_csv(zipfile.open('gebaeude_batiment_edificio.csv'),
-                         usecols=['GGDENAME','GKODE', 'GKODN', 'GENH1'],
+                         usecols=['GDEKT', 'GGDENAME', 'GKODE', 'GKODN', 'GENH1'],
                          sep='\t')
 
 
 #Column mit geeigneten Namen
-dfGWRSource = dfGWRSource.rename(columns={"GGDENAME": "Gemeinde",
+dfGWRSource = dfGWRSource.rename(columns={"GDEKT": "Kanton",
+                                          "GGDENAME": "Gemeinde",
                                           "GKODE": "lat",
                                           "GKODN": "lon",
                                           "GENH1":"Energiequelle"
@@ -57,14 +58,23 @@ gdf = gpd.GeoDataFrame(
     dfGWRfossileEnergiequelle, geometry=gpd.points_from_xy(dfGWRfossileEnergiequelle.lat, dfGWRfossileEnergiequelle.lon)
 )
 
-#Datenframe für Verteilung der Energietrager pro Gemeinde
-dfEnergyHeatmap = gdf[['Gemeinde','Energiequelle', 'geometry']]
-
-
 # ### Daten in ein GeoPackage-File exportieren
-#Als GeoPackage-File exportieren
-#gdf.to_file('Export_Data/GeoPackage/EnergiequelleFossile.gpkg', driver='GPKG', limit=0)
-gdf = gdf.set_crs(2056, allow_override=True)
-gdf.to_file('Daten/Gemeindeliste_1-3.gpkg', driver='GPKG', limit=0)
+# nur ausgewählte Kantone exportiern, da sonst das Geopackage-File über 100MB wird. 
+# GitHub hat eine Limitierung von 100MB  
+options = ['BE', 'ZH', 'AG', 'VD', 'SG']
+gdf_1 = gdf[(gdf['Kanton'].isin(options))] 
+
+# nur ausgewählte Kantone exportiern, da sonst das Geopackage-File über 100MB wird. 
+# GitHub hat eine Limitierung von 100MB  
+options = ['GR', 'SO', 'SZ', 'GE', 'JU', 'NE', 'SH', 'BS', 'ZG', 'AR', 'GL', 'UR', 'OW', 'NW', 'AI', 'BL', 'LU','TG',  'VS', 'FR', 'TI']
+gdf_2 = gdf[(gdf['Kanton'].isin(options))] 
+
+#Als GeoPackage-File exportieren -PART 1
+gdf_1 = gdf_1.set_crs(2056, allow_override=True)
+gdf_1.to_file('Daten/Gemeindeliste_1-3_part1.gpkg', driver='GPKG', limit=0)
+
+#Als GeoPackage-File exportieren - PART 2
+gdf_2 = gdf_2.set_crs(2056, allow_override=True)
+gdf_2.to_file('Daten/Gemeindeliste_1-3_part2.gpkg', driver='GPKG', limit=0)
 
 
