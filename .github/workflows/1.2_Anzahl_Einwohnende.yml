@@ -1,8 +1,8 @@
 name: 1.2_Anzahl_Einwohnende
-on: [workflow_dispatch]
-#on: 
-# schedule:
-#    - cron: '0 2 * * *' # runs every day at 2am UTM. 
+#on: [workflow_dispatch]
+on: 
+ schedule:
+    - cron: '30 2 * * *' # runs every day at 2am UTM. 
 
 jobs:
   build:
