@@ -1,7 +1,0 @@
-pandas
-matplotlib
-
-# pandas==1.4.4
-# io
-# zipfile
-# urllib.request
