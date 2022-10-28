@@ -2,7 +2,7 @@ name: 1.4_Zeitreihe_fossiler_Heizungen
 #on: [workflow_dispatch]
 on: 
  schedule:
-    - cron: '0 2 * * *' # runs every day at 2am UTM. 
+    - cron: '30 3 * * *' # runs every day at 2am UTM. 
 
 jobs:
   build:
