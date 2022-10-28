@@ -1,9 +1,9 @@
 name: 1.3_Energiequellen_GHE
 
-on: [workflow_dispatch]
-#on: 
-# schedule:
-#    - cron: '0 2 * * *' # runs every day at 2am UTM. 
+#on: [workflow_dispatch]
+on: 
+ schedule:
+    - cron: '0 3 * * *' # runs every day at 2am UTM. 
 
 jobs:
   build:
