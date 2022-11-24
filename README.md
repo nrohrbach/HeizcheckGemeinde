@@ -15,7 +15,7 @@ Jede Kennzahl wird in einem eigenen Pythonskript berechnet. Die Methode ist auf 
 
 ## Resultat
 Die vier Kennzahlen sind für alle Gemeinden in folgendem Dashboard visualisiert:
-[<img src="https://github.com/nrohrbach/HeizcheckGemeinde/blob/pages/Bilder/Dashboard.gif" width="90%"/>](https://dash.rei.st/)
+[<img src="https://raw.githubusercontent.com/nrohrbach/HeizcheckGemeinde/pages/Bilder/Dashboard.gif" width="90%"/>](https://dash.rei.st/)
 
 ## Verwendete Daten
 Folgende Daten wurden verwendet:
