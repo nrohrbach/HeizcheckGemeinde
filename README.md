@@ -30,4 +30,8 @@ Jede Kennzahl wird in einem eigenen Pythonskript berechnet. Die Skripte sind hie
 Die vier Kennzahlen sind für alle Gemeinden in folgendem Dashboard visualisiert:
 [<img src="https://github.com/nrohrbach/HeizcheckGemeinde/blob/pages/Bilder/Dashboard.gif" width="90%"/>](https://dash.rei.st/)
 
-
+## Verwendete Daten
+Folgende Daten wurden verwendet:
+* [Gebäude- und Wohnungsregister](https://www.housing-stat.ch/de/madd/public.html)
+* [Statistik der Bevölkerung und der Haushalte](https://opendata.swiss/de/dataset/bevolkerungsstatistik-einwohner)
+* [swissBOUNDARIES3D](https://www.swisstopo.admin.ch/de/geodata/landscape/boundaries3d.html)
