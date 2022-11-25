@@ -17,7 +17,7 @@ Leaflet open-source JavaScript library for mobile-friendly interactive maps: htt
 GitHub dash-leaflet: https://github.com/thedirtyfew/dash-leaflet [Stand: 2.10.2022]<br>
 <br>
 <br>
-<i> CAS Spatial Data Analytics 2022 </i> ¦ <i> Kommunale Übersicht von Heizsystemen und Energieträgern in Wohngebäuden </i> ¦ <i> Stand: 23.10.2022  </i> ¦ <i> Entwickler: Jürg Reist und Nico Rohrbach</i>
+<i> CAS Spatial Data Analytics 2022 </i> ¦ <i> Heizenergieträger in Gemeinden </i> ¦ <i> Stand: 21.11.2022  </i> ¦ <i> Entwickler: Jürg Reist und Nico Rohrbach</i>
 
 ### Notebook vorbereiten
 
