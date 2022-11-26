@@ -26,4 +26,4 @@ Folgende Daten wurden verwendet:
 
 ## Notebook für Dashboard
 Das Notebook in welchem das Dashboard erstellt wird ist hier verfügbar:
-* [Notebook](https://github.com/nrohrbach/HeizcheckGemeinde/blob/pages/Visualisierung_Energiequellen_Dash.md)
+* [Notebook](https://nrohrbach.github.io/HeizcheckGemeinde/Visualisierung_Energiequellen_Dash)
