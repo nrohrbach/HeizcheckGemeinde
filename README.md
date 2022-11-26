@@ -23,3 +23,7 @@ Folgende Daten wurden verwendet:
 * [Statistik der Bevölkerung und der Haushalte](https://opendata.swiss/de/dataset/bevolkerungsstatistik-einwohner)
 * [swissBOUNDARIES3D](https://www.swisstopo.admin.ch/de/geodata/landscape/boundaries3d.html)
 
+
+## Notebook für Dashboard
+Das Notebook in welchem das Dashboard erstellt wird ist hier verfügbar:
+* [Notebook](https://github.com/nrohrbach/HeizcheckGemeinde/blob/pages/Visualisierung_Energiequellen_Dash.md)
