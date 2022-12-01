@@ -1,4 +1,4 @@
-# Wie gross ist der Anteil der Heizöl-, Gas- und Elektroheizungen in einer Gemeinde?
+# Wie gross ist der Anteil von Heizöl-, Gas- und Elektroheizungen in einer Gemeinde?
 
 ## Motivation
 Ein Drittel des Energieverbrauchs in der Schweiz wird durch Haushalte verursacht. Ein grosser Teil dieses Energieverbrauchs entsteht durch Gebäudeheizungen. In der Schweiz werden 60% der Gebäude mit Gas oder Öl beheizt. Durch den Ukrainekrieg sind die Energiepreise stark gestiegen, insbesondere für Gas und Öl. Dadurch müssen Haushalte und Betriebe welche mit Öl oder Gas heizen, mit höheren Ausgaben rechnen. Diese zusätzliche finanzielle Belastung der Bevölkerung ist nicht regelmässig verteilt und trifft nicht alle Regionen oder Gemeinden im gleichen Ausmass. Darum soll mit dieser Arbeit analysiert werden, wie stark verschiedene Gemeinden von den steigenden Energiepreisen betroffen sind.
