@@ -349,7 +349,7 @@ datenurl = 'https://data.geo.admin.ch/ch.swisstopo.swissboundaries3d/' + Zeitste
 response = requests.get(datenurl)
 data_bytes = response.content
 with fiona.io.ZipMemoryFile(data_bytes) as zip_memory_file:
-    with zip_memory_file.open('SHAPEFILE_LV95_LN02/swissBOUNDARIES3D_1_3_TLM_HOHEITSGEBIET.shp') as collection:
+    with zip_memory_file.open('swissBOUNDARIES3D_1_4_TLM_HOHEITSGEBIET.shp') as collection:
       switzerland_gemeinde = gpd.GeoDataFrame.from_features(collection, crs=collection.crs)
 
 # In WGS84 transformieren
