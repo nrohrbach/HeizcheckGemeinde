@@ -377,7 +377,7 @@ Gemeindeliste
 # In[40]:
 
 
-GemeindeEinwohner = gemeindejoin.groupby(['NAME'])['PaxGas','PaxElektrizität','PaxÖl','PaxKeine','PaxUnbestimmt','PaxWeitere'].agg('sum')
+GemeindeEinwohner = gemeindejoin.groupby(['NAME'])[['PaxGas','PaxElektrizität','PaxÖl','PaxKeine','PaxUnbestimmt','PaxWeitere']].agg('sum')
 
 
 # In[41]:
